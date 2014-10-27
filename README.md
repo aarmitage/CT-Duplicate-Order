@@ -58,3 +58,7 @@ Template Usage
 {/if}
 {/exp:channel:entries}
 ```
+Support
+=======
+
+This plugin is offered without support or any warranty. Us at your own risk and always backup, backup and backup again before dabbling in your database.
