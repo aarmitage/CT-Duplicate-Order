@@ -13,6 +13,7 @@ This plugin queries the exp_cartthrob_order_items table in the EE database, spec
 Template Usage
 ==============
 
+```html
 <h2>My Orders</h2>
 {exp:channel:entries channel="orders" status="not none" dynamic="no" author_id="CURRENT_USER"}
 
@@ -56,3 +57,4 @@ Template Usage
 </table>
 {/if}
 {/exp:channel:entries}
+```
