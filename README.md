@@ -9,6 +9,14 @@ Thanks to Rob Sanchez for setting us off on the right track (http://expressionen
 
 This plugin queries the exp_cartthrob_order_items table in the EE database, specifically targeting the 'extra' field. This stores all the order options within a serialized and Base64 encoded array. Each line item is extracted as an array and the key/value pairs can be used in hidden form fields within a {exp:cartthrob:multi_add_to_cart_form} tag pair.
 
+##Tags
+
+The plugin uses a tag pair:
+
+{exp:repeat_order order_id="{entry_id}" row_order="{item:row_order}"}
+
+The parameters _order_id_ and _row_order_ are **required**.
+
 ## Template Usage
 
 ```html
